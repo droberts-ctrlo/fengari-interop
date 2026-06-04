@@ -1,3 +1,7 @@
+0.1.6 - 2026-06-04
+
+  - Moved to ES modules
+
 0.1.4 - 2025-12-21
 
   - new globalThis compat routine
