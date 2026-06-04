@@ -1,11 +1,11 @@
 {
-	"name": "fengari-interop",
+	"name": "@ctrlo/fengari-interop",
 	"version": "0.1.6",
 	"description": "JS library for Fengari",
 	"author": "Daurnimator <quae@daurnimator.com>",
 	"contributors": [
 		"Daurnimator <quae@daurnimator.com>",
-    	"Dave Roberts <d.roberts@ctrlo.com>"
+		"Dave Roberts <d.roberts@ctrlo.com>"
 	],
 	"type": "module",
 	"repository": {
@@ -29,16 +29,16 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.29.7",
-    	"@babel/preset-env": "^7.29.7",
-    	"@eslint/js": "^10.0.1",
-    	"babel-jest": "^30.4.1",
-    	"@stylistic/eslint-plugin": "^5.10.0",
-    	"eslint": "^10.0.0",
-    	"globals": "^17.6.0",
-    	"jest": "^24.5.0"
+		"@babel/preset-env": "^7.29.7",
+		"@eslint/js": "^10.0.1",
+		"babel-jest": "^30.4.1",
+		"@stylistic/eslint-plugin": "^5.10.0",
+		"eslint": "^10.0.0",
+		"globals": "^17.6.0",
+		"jest": "^24.5.0"
 	},
-	"dependencies": {
-		"fengari": "^0.1.6"
+	"peerDependencies": {
+		"@ctrlo/fengari": "^0.1.6"
 	},
 	"scripts": {
 		"lint": "eslint src/ test/",

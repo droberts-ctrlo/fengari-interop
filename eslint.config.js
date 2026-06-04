@@ -7,7 +7,7 @@ export default defineConfig([
     { ignores: ["dist", "node_modules", "*.config.*"] },
     { files: ["**/src/*.js"], plugins: { js }, extends: ["js/recommended"], languageOptions: { globals: { ...globals.node, ...globals.browser, ...globals.worker } } },
     { files: ["**/test/*.test.js"], languageOptions: { globals: { ...globals.node, ...globals.browser, ...globals.worker, ...globals.jest } } },
-    { plugins: {'@stylistic': stylistic} },
+    { plugins: { '@stylistic': stylistic } },
     {
         rules: {
             "@typescript-eslint/no-explicit-any": "off",
