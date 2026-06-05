@@ -1,4 +1,4 @@
-import { lua, lauxlib, lualib, to_luastring } from 'fengari';
+import { lua, lauxlib, lualib, to_luastring } from '@ctrlo/fengari';
 
 const {
     LUA_MULTRET,

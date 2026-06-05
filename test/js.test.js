@@ -1,4 +1,4 @@
-import { lua, lauxlib, lualib, to_luastring } from 'fengari';
+import { lua, lauxlib, lualib, to_luastring } from '@ctrlo/fengari';
 import { FENGARI_INTEROP_RELEASE, FENGARI_INTEROP_VERSION, FENGARI_INTEROP_VERSION_NUM, luaopen_js, push, tojs } from '../src/js.js';
 
 const {
